@@ -1,12 +1,14 @@
-# 🌿 Verdant Vibes - Premium Plant Shop
+# 🌿 Growhaus - Premium Plant Shop
 
 A beautiful, modern e-commerce website for plant enthusiasts, built with React, TypeScript, and a focus on premium design and user experience.
 
-![Verdant Vibes Home Page](screenshots/home-page.png)
+![Growhaus Home Page](screenshots/home-hero.png)
 
 ## 📖 About
 
-**Verdant Vibes** is a premium plant shop website that brings nature into your home. The site features a curated collection of indoor and outdoor plants, complete with detailed care guides and a seamless shopping experience. With its modern organic design aesthetic, the website combines deep forest greens, warm cream backgrounds, and elegant serif typography to create an immersive botanical experience.
+**Growhaus** is your premier destination for bringing life into your living spaces. We believe that every home deserves a touch of nature, and our curated collection reflects that philosophy. From air-purifying indoor plants to resilient succulents and statement outdoor pieces, Growhaus offers a seamless shopping experience for plant lovers of all levels.
+
+Our design philosophy centers on "Modern Organic" aesthetics—blending the raw beauty of nature with clean, contemporary web design. With a soothing palette of deep forest greens and warm creams, combined with elegant typography, we invite you to explore a digital sanctuary that feels as refreshing as the plants we sell.
 
 ## ✨ Features
 
@@ -16,7 +18,7 @@ A beautiful, modern e-commerce website for plant enthusiasts, built with React, 
 - **Value Propositions**: Highlighting sustainability, secure shipping, and expert support
 - **Newsletter Signup**: Build your green community
 
-![Features Section](screenshots/features.png)
+![Features Section](screenshots/home-features.png)
 
 ### 🛍️ Smart Shop Page
 - **Product Catalog**: Clean grid layout with all available plants
@@ -31,6 +33,8 @@ A beautiful, modern e-commerce website for plant enthusiasts, built with React, 
 - **Care Guides**: Visual indicators for light, water, and difficulty level
 - **Quantity Selection**: Easy-to-use quantity controls
 - **Add to Cart**: Seamless shopping experience
+
+![Product Details](screenshots/product-details.png)
 
 ### 🛒 Shopping Cart
 - **Slide-out Drawer**: Smooth cart animation
@@ -110,13 +114,13 @@ verdant-vibes-plant-shop/
 │   ├── pages/          # Page components
 │   │   ├── Home.tsx
 │   │   ├── Shop.tsx
-│   │   └── ProductDetails.tsx
+│   │   ├── ProductDetails.tsx
 │   ├── context/        # React Context providers
-│   │   └── CartContext.tsx
+│   │   ├── CartContext.tsx
 │   ├── data/           # Mock data
-│   │   └── products.ts
+│   │   ├── products.ts
 │   ├── types/          # TypeScript type definitions
-│   │   └── index.ts
+│   │   ├── index.ts
 │   ├── App.tsx         # Main app component
 │   ├── main.tsx        # Entry point
 │   └── index.css       # Global styles
