@@ -62,14 +62,14 @@ export const ProductDetails: React.FC = () => {
                                 <Droplets className="care-icon" />
                                 <div>
                                     <strong>Water</strong>
-                                    <p>{product.care === 'expert' ? 'Keep Moist' : product.care === 'moderate' ? 'Water Weekly' : 'Allow to Dry'}</p>
+                                    <p>{product.water === 'weekly' ? 'Water Weekly' : product.water === 'bi-weekly' ? 'Every 2 Weeks' : 'Monthly'}</p>
                                 </div>
                             </div>
                             <div className="care-item">
                                 <ShieldCheck className="care-icon" />
                                 <div>
                                     <strong>Difficulty</strong>
-                                    <p style={{ textTransform: 'capitalize' }}>{product.care}</p>
+                                    <p style={{ textTransform: 'capitalize' }}>{product.difficulty}</p>
                                 </div>
                             </div>
                         </div>
