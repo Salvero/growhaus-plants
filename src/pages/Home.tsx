@@ -85,10 +85,7 @@ export const Home: React.FC = () => {
                                 <h3 className="product-name">{product.name}</h3>
                                 <div className="product-meta">
                                     <span className="product-price">${product.price.toFixed(2)}</span>
-                                    <Button size="sm" variant="outline" onClick={(e) => {
-                                        e.preventDefault();
-                                        // Add to cart logic here if needed, or just let it go to details
-                                    }}>View</Button>
+                                    <Button size="sm" variant="outline">View</Button>
                                 </div>
                             </div>
                         </Link>

@@ -2,8 +2,10 @@ import React from 'react';
 import { useCart } from '../context/CartContext';
 import { X, Minus, Plus, Trash2 } from 'lucide-react';
 import { Button } from './Button';
+import { useNavigate } from 'react-router-dom';
 
 export const CartDrawer: React.FC = () => {
+    const navigate = useNavigate();
     const {
         items,
         removeFromCart,
@@ -12,6 +14,11 @@ export const CartDrawer: React.FC = () => {
         isCartOpen,
         setIsCartOpen
     } = useCart();
+
+    const handleCheckout = () => {
+        setIsCartOpen(false);
+        navigate('/checkout');
+    };
 
     if (!isCartOpen) return null;
 
@@ -65,7 +72,7 @@ export const CartDrawer: React.FC = () => {
                             <span className="total-amount">${cartTotal.toFixed(2)}</span>
                         </div>
                         <p className="shipping-note">Shipping calculated at checkout</p>
-                        <Button className="checkout-btn" style={{ width: '100%' }}>
+                        <Button className="checkout-btn" style={{ width: '100%' }} onClick={handleCheckout}>
                             Checkout
                         </Button>
                     </div>

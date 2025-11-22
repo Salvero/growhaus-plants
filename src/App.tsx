@@ -7,6 +7,7 @@ import { Home } from './pages/Home';
 import { Shop } from './pages/Shop';
 import { ProductDetails } from './pages/ProductDetails';
 import { Care } from './pages/Care';
+import { Checkout } from './pages/Checkout';
 
 import { CartProvider } from './context/CartContext';
 import { WishlistProvider } from './context/WishlistContext';
@@ -23,6 +24,7 @@ function App() {
               <Route path="/shop" element={<Shop />} />
               <Route path="/product/:id" element={<ProductDetails />} />
               <Route path="/care" element={<Care />} />
+              <Route path="/checkout" element={<Checkout />} />
             </Routes>
             <CartDrawer />
           </Layout>

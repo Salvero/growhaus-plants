@@ -143,9 +143,7 @@ export const Shop: React.FC = () => {
                                         <h3 className="product-name">{product.name}</h3>
                                         <div className="product-meta">
                                             <span className="product-price">${product.price.toFixed(2)}</span>
-                                            <Button size="sm" variant="outline" onClick={(e) => {
-                                                e.preventDefault();
-                                            }}>View</Button>
+                                            <Button size="sm" variant="outline">View</Button>
                                         </div>
                                     </div>
                                 </Link>
