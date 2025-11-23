@@ -19,6 +19,22 @@ export const Home: React.FC = () => {
                         <p className="hero-subtitle">
                             Discover our curated collection of premium plants to transform your living space into a green sanctuary.
                         </p>
+                        <div className="hero-social-proof">
+                            <div className="social-proof-item">
+                                <div className="star-rating">
+                                    <Star size={16} fill="currentColor" />
+                                    <Star size={16} fill="currentColor" />
+                                    <Star size={16} fill="currentColor" />
+                                    <Star size={16} fill="currentColor" />
+                                    <Star size={16} fill="currentColor" />
+                                </div>
+                                <span className="rating-text">4.9/5 Stars</span>
+                            </div>
+                            <span className="social-proof-divider">•</span>
+                            <div className="social-proof-item">
+                                <span className="benefit-text">Free Shipping Over $99</span>
+                            </div>
+                        </div>
                         <div className="hero-actions">
                             <Link to="/shop">
                                 <Button size="lg">Shop Now</Button>
