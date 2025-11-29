@@ -153,19 +153,19 @@ export const Home: React.FC = () => {
             quote: "My Monstera from Growhaus is thriving! The packaging was impeccable and the plant arrived in perfect condition. Couldn't be happier!",
             author: "Sarah Mitchell",
             role: "Plant Enthusiast",
-            avatar: "https://i.pravatar.cc/150?img=1"
+            avatar: "https://ui-avatars.com/api/?name=Sarah+Mitchell&background=2D5A3D&color=fff&size=150"
         },
         {
             quote: "As a beginner, I was nervous about plant care. The expert guidance and easy-care selections made it so simple. My home is now a jungle!",
             author: "Marcus Chen",
             role: "New Plant Parent",
-            avatar: "https://i.pravatar.cc/150?img=12"
+            avatar: "https://ui-avatars.com/api/?name=Marcus+Chen&background=4A7C59&color=fff&size=150"
         },
         {
             quote: "The quality and variety are unmatched. I've ordered from many places, but Growhaus is now my go-to for rare finds and reliable care advice.",
             author: "Emma Rodriguez",
             role: "Plant Collector",
-            avatar: "https://i.pravatar.cc/150?img=5"
+            avatar: "https://ui-avatars.com/api/?name=Emma+Rodriguez&background=8FBC8F&color=fff&size=150"
         }
     ];
 
@@ -176,21 +176,21 @@ export const Home: React.FC = () => {
             excerpt: "Learn to recognize when your green friends are craving more sunshine and how to fix it.",
             tag: "Care Tips",
             readTime: "5 min",
-            image: "https://images.unsplash.com/photo-1463320898484-cdee8141c787?w=800&q=80"
+            image: "https://images.unsplash.com/photo-1463320898484-cdee8141c787"
         },
         {
             title: "The Ultimate Monstera Care Guide",
             excerpt: "Everything you need to know about growing healthy, fenestrated Monstera deliciosa.",
             tag: "Plant Spotlight",
             readTime: "8 min",
-            image: "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?w=800&q=80"
+            image: "https://images.unsplash.com/photo-1614594975525-e45190c55d0b"
         },
         {
             title: "Small Space Plant Styling Tips",
             excerpt: "Transform your tiny apartment into a lush oasis with these space-saving strategies.",
             tag: "Styling",
             readTime: "6 min",
-            image: "https://images.unsplash.com/photo-1509937528035-ad76254b0356?w=800&q=80"
+            image: "https://images.unsplash.com/photo-1509937528035-ad76254b0356"
         }
     ];
 
@@ -470,7 +470,7 @@ export const Home: React.FC = () => {
                         {/* Card 1: Large - Low Light Lovers */}
                         <div className="category-card">
                             <img
-                                src="https://images.unsplash.com/photo-1509937528035-ad76254b0356?w=1200&q=80"
+                                src="https://images.unsplash.com/photo-1509937528035-ad76254b0356"
                                 alt="Low Light Lovers"
                                 className="category-image"
                                 loading="lazy"
@@ -484,7 +484,7 @@ export const Home: React.FC = () => {
                         {/* Card 2: Top Right - Pet Safe */}
                         <div className="category-card">
                             <img
-                                src="https://images.unsplash.com/photo-1463320726281-696a485928c7?w=800&q=80"
+                                src="https://images.unsplash.com/photo-1463320726281-696a485928c7"
                                 alt="Pet Safe Plants"
                                 className="category-image"
                                 loading="lazy"
@@ -498,7 +498,7 @@ export const Home: React.FC = () => {
                         {/* Card 3: Small - Beginner */}
                         <div className="category-card">
                             <img
-                                src="https://images.unsplash.com/photo-1459156212016-c812468e2115?w=600&q=80"
+                                src="https://images.unsplash.com/photo-1459156212016-c812468e2115"
                                 alt="Beginner Friendly"
                                 className="category-image"
                                 loading="lazy"
@@ -512,7 +512,7 @@ export const Home: React.FC = () => {
                         {/* Card 4: Small - Rare Finds */}
                         <div className="category-card">
                             <img
-                                src="https://images.unsplash.com/photo-1558603668-6570496b66f8?w=600&q=80"
+                                src="https://images.unsplash.com/photo-1558603668-6570496b66f8"
                                 alt="Rare Finds"
                                 className="category-image"
                                 loading="lazy"
@@ -526,7 +526,7 @@ export const Home: React.FC = () => {
                         {/* Card 5: Small - Statement Trees */}
                         <div className="category-card">
                             <img
-                                src="https://images.unsplash.com/photo-1497250681960-ef046c08a56e?w=800&q=80"
+                                src="https://images.unsplash.com/photo-1497250681960-ef046c08a56e"
                                 alt="Statement Trees"
                                 className="category-image"
                                 loading="lazy"
@@ -746,10 +746,10 @@ export const Home: React.FC = () => {
                     <div className="trust-line">
                         <span>Join 25,000+ plant lovers</span>
                         <div className="avatar-stack">
-                            <img src="https://i.pravatar.cc/32?img=1" alt="Customer" />
-                            <img src="https://i.pravatar.cc/32?img=2" alt="Customer" />
-                            <img src="https://i.pravatar.cc/32?img=3" alt="Customer" />
-                            <img src="https://i.pravatar.cc/32?img=4" alt="Customer" />
+                            <img src="https://ui-avatars.com/api/?name=Sarah+M&background=2D5A3D&color=fff&size=32" alt="Customer" />
+                            <img src="https://ui-avatars.com/api/?name=John+D&background=4A7C59&color=fff&size=32" alt="Customer" />
+                            <img src="https://ui-avatars.com/api/?name=Emma+R&background=8FBC8F&color=fff&size=32" alt="Customer" />
+                            <img src="https://ui-avatars.com/api/?name=Alex+K&background=2D5A3D&color=fff&size=32" alt="Customer" />
                         </div>
                     </div>
                 </div>
