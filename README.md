@@ -206,13 +206,7 @@ growhaus-plants/
 
 ## 🎯 Future Enhancements
 
-- [x] ~~Search functionality~~ ✅ Completed
-- [x] ~~Wishlist functionality~~ ✅ Completed
-- [x] ~~Mobile navigation menu~~ ✅ Completed
-- [x] ~~Accessibility improvements~~ ✅ Completed
-- [x] ~~Security headers~~ ✅ Completed
 - [ ] User authentication
-- [x] ~~Product reviews and ratings~~ ✅ Completed
 - [ ] Checkout and payment integration
 - [ ] Admin dashboard for inventory management
 - [ ] More plant varieties and categories
